@@ -1,0 +1,48 @@
+baseURL = "http://rootxrishabh.github.io/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Rishabh Soni (rootxrishabh)"
+
+theme = "gokarna"
+publishDir = "docs"
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+  description = "Hey! I'm Rishabh, I love lurking around devops tools and cloud native technologies"
+          avatarURL = "/Rishabh-Soni.jpg"
+  footer = "Rishabh Soni"
+  socialIcons = [
+      {name = "github", url = "https://github.com/rootxrishabh"},
+      {name = "twitter", url = "https://twitter.com/rootxrishabh"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/rishabh-soni-a234a418a/"},
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+  [[menu.main]]
+    name = "Resume"
+    url = "https://drive.google.com/file/d/1S5h5b6fs7Omw-c4r6UuCy6ebpwaQTdiS/view?usp=sharing"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/rootxrishabh"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 5
